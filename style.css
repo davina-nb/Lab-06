@@ -1,6 +1,7 @@
 div{
     width: 100px;
     height: 100px;
+    display: inline block;
     background-color: rgb(226, 88, 226);
     border: 2px solid black;
 }
@@ -11,6 +12,7 @@ div{
 }
 
 .relative-box{
+    background-color: blue;
     position: relative;
     right: 30px;
     bottom: 20px;
