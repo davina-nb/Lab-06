@@ -1,0 +1,81 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 88, 226);
+    border: 2px solid black;
+}
+
+
+.static-box{
+    position: static;
+}
+
+.relative-box{
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box{
+    position: sticky;
+    top: 0px;
+
+}
+
+.background-image{
+    background-image: url(lizard.png);
+    background-size: cover;
+}
+
+.background-image-repeat{
+    background-image: url(lizard.png);
+    background-repeat: repeat-x repeat-y;
+}
+
+.box1{
+    z-index: 1;
+}
+
+.box2{
+    z-index: 2;
+}
+
+#container{
+    flex: row;
+}
+
+#container2{
+    flex: column;
+}
+
+#container3{
+    justify-content: space-evenly;
+}
+
+#container4{
+    flex-wrap: wrap;
+}
+
+#box-height1{
+    height: 100px;
+}
+#box-height2{
+    height: 50px;
+}
+#box-height3{
+    height: 120px;
+}
+
+
