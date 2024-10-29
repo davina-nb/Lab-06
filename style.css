@@ -19,18 +19,21 @@ div{
 }
 
 .absolute-box{
+    background-color: aquamarine;
     position: absolute;
     top: 10px;
     left: 15px;
 }
 
 .fixed-box{
+    background-color: rgb(79, 235, 79);
     position: fixed;
     bottom: 10px;
     right: 10px;
 }
 
 .sticky-box{
+    background-color: deeppink;
     position: sticky;
     top: 0px;
 
@@ -38,35 +41,65 @@ div{
 
 .background-image{
     background-image: url(lizard.png);
-    background-size: cover;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
 }
 
 .background-image-repeat{
+    width: 350px;
+    height: 200px;
     background-image: url(lizard.png);
     background-repeat: repeat-x repeat-y;
 }
 
 .box1{
-    z-index: 1;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
 }
-
 .box2{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
     z-index: 2;
 }
 
 #container{
-    flex: row;
+    background-color: bisque;
+    width: 600px;
+    height: 200px;
+    border: solid black 4px;
+    flex-direction: row;
+    display: flex;
 }
 
-#container2{
-    flex: column;
+#containertwo{
+    background-color: bisque;
+    width: 200px;
+    height: 500px;
+    border: solid black 4px;
+    flex-direction: column;
+    display: flex;
 }
 
 #container3{
+    display: flex;
+    background-color: bisque;
+    width: 600px;
+    height: 200px;
+    border: solid black 4px;
     justify-content: space-evenly;
 }
 
 #container4{
+    background-color: bisque;
+    display: flex;
+    width: 600px;
+    height: 210px;
+    border: solid black 4px;
     flex-wrap: wrap;
 }
 
@@ -78,6 +111,49 @@ div{
 }
 #box-height3{
     height: 120px;
+}
+
+.container5{
+    background-color: bisque;
+    display: flex;
+    width: 200px;
+    height: 400px;
+    border: solid black 4px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container6{
+    background-color: bisque;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: solid black 4px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.container7{
+    background-color: bisque;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: solid black 4px;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+.grow3{
+    flex-grow: 1;
 }
 
 
